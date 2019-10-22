@@ -7,10 +7,10 @@ The CLIFCry project belongs to my personal portfolio. Its detailed project can b
   
   
 ### Features in this version:
-...  
+...planing...  
   
 ### Features in future versions:
-...  
+...planing...  
   
   
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
@@ -18,7 +18,7 @@ THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.
 PROJECT NAME: _**CLIFCry**_.  
 PROJECT VERSION: 0.0.1.beta.  
 SOURCE FILE NAME: _**CLIFCry.java**_.  
-BIN FILE NAME: _**CLIFCry.class**_.
+BIN FILE NAME: _**CLIFCry.class**_.  
 DEPENDENCES: cryptocorepack.jar.  
 BRANCH: MASTER.  
 AUTHOR: RONALDO PI MA SI.  
