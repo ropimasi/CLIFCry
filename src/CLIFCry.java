@@ -1,5 +1,5 @@
 /******************************************************************************
- * CLIFCry
+ * CLIFCry (symm.wwo.pw.1f.1pw)
  * Command Line Interface File Cryptografer  
  * 
  * The CLIFCry.java and its resources are a project sample, which I have_
@@ -13,7 +13,7 @@
  * CONTENT: A PERSONAL UTILITY MINI PPROJECT.
  * THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.
  * PROJECT NAME: CLIFCry.
- * PPROJECT VERSION: 0.0.1.beta.
+ * PPROJECT VERSION: 1.0.0.beta.
  * SOURCE FILE NAME: CLIFCry.java.
  * BIN FILE NAME: CLIFCry.class.
  * DEPENDENCES: cryptocorepack.jar.
@@ -21,7 +21,8 @@
  * AUTHOR: RONALDO PI MA SI.  
  * DATE: 2019-OCT.
  * LANGUAGE: JAVA 8.
- * PLATAFORM: Microsoft Windows7, Eclipse IDE EE v201903(4.11.0), JDK_SE-JRE-JVM 1.8.0.22.
+ * PLATAFORM: Microsoft Windows7, Eclipse IDE EE v201903(4.11.0),_
+ * JDK_SE-JRE-JVM 1.8.0.22.
  * 
  * NOTA IMPORTANTE / ISENÇÃO DE RESPONSABILIDADE:
  * Este é um projeto pessoal, particular, com finalidade exclusiva de estudos
@@ -62,12 +63,12 @@ public class CLIFCry {
 
 	// Declaração de constantes e variáveis globais.
 	public static final String PROGRAM_NAME = "CLIFCry";
-	public static final String PROGRAM_VERSION = "0.0.2.beta";
+	public static final String PROGRAM_VERSION = "1.0.0.beta";
 	public static final String DESTIN_FILE_EXTENSION = ".CLIFCry";
 	protected static final String[] OPTIONS_ARRAY = { "-e", "-d", "-h" }; // Vector of acceptables options
-																			// on 0.0.2.beta.
+																		  // on 1.0.0.beta.
 
-	// Auxiliar methods declarations.
+	// Auxiliar method to Print in DEBUG MODE.
 	protected static final boolean optionValidate(String aValue, String[] aVector) {
 		for (int i = 0; i < aVector.length; i++) {
 			if (aVector[i].equalsIgnoreCase(aValue))
@@ -76,7 +77,9 @@ public class CLIFCry {
 		return false;
 	}
 
-	// Entry method.
+	
+	
+	// Entrance method.
 	public static void main(String[] args) throws IOException {
 		// Declarar variáveis.
 		FileReader readableFile = null;
