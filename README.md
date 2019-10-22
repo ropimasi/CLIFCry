@@ -1,7 +1,7 @@
 # CryptoCorePack
 Cryptogrphy Core Package  
   
-#### The _CryptoCore.java_ ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
+#### The __CryptoCore.java__ ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
 
 <!-- Cryptogrphy Core Package: A personal utility project sample, which I develop to demonstrate my abilities. -->
 
@@ -15,7 +15,7 @@ It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .
 ...  
   
   
-#### CONTENT: A PERSONAL UTILITY MINI-PPROJECT.  
+#### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFY.  
 PROJECT NAME: _**CLIFileCrypto**_.  
 SOURCE FILE NAME: _**CLIFCry.java**_ and _**cryptocore**_ package.  
@@ -27,12 +27,12 @@ DATE: 2019-OCT.
 LANGUAGE: JAVA 8. 
 PLATAFORM: Microsoft Windows7, Eclipse IDE EE v201903(4.11.0), JDK_SE-JRE-JVM 1.8.0.22.  
   
->**NOTA IMPORTANTE / ISENÇÃO DE RESPONSABILIDADE:**
->Este é um projeto pessoal, particular, com finalidade exclusiva de meus_
-estudos em tecnologia da informação, e de uso e fruto único e exclusivamen-
+>**NOTA IMPORTANTE / ISENÃ‡ÃƒO DE RESPONSABILIDADE:**
+>Este Ã© um projeto pessoal, particular, com finalidade exclusiva de meus_
+estudos em tecnologia da informaÃ§Ã£o, e de uso e fruto Ãºnico e exclusivamen-
 te de seu autor. Trata-se de um projeto em fase de desenvovimento e experi-
-mentações, o qual não tem nenhuma responsabilidade pelas informações nele_
-contidas, tão pouco sobre seus resultados e efeitos ao ser utilizado.  
+mentaÃ§Ãµes, o qual nÃ£o tem nenhuma responsabilidade pelas informaÃ§Ãµes nele_
+contidas, tÃ£o pouco sobre seus resultados e efeitos ao ser utilizado.  
   
 >**IMPORTANT NOTE / DISCLAIMER:**
 >This is a personal, private project, solely for the purpose of my studies_
