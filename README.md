@@ -1,12 +1,9 @@
-﻿# CryptoCorePack
-Cryptogrphy Core Package  
+﻿# CLIFCry
+Command Line Interface File Cryptografer  
   
-#### The *CryptoCore.java* ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
-
-<!-- Cryptogrphy Core Package: A personal utility project sample, which I develop to demonstrate my abilities. -->
-
-Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/).  
-It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .  
+#### The *CLIFCry.java* and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
+  
+The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
   
   
 ### Features in this version:
@@ -17,11 +14,12 @@ It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .
   
   
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
-THEME: TEXT FILE SYMETRIC CRYPTOGRAFY.  
-PROJECT NAME: _**CryptoCorePack**_.  
-SOURCE FILE NAME: _**CryptoCore.java**_.  
-BIN FILE NAME: _**CryptoCore.class**_ or _**cryptocorepack.jar**_.  
+THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.  
+PROJECT NAME: _**CLIFCry**_.  
 PROJECT VERSION: 0.0.1.beta.  
+SOURCE FILE NAME: _**CLIFCry.java**_.  
+BIN FILE NAME: _**CLIFCry.class**_.
+DEPENDENCES: cryptocorepack.jar.  
 BRANCH: MASTER.  
 AUTHOR: RONALDO PI MA SI.  
 DATE: 2019-OCT.  
