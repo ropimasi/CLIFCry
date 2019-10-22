@@ -4,15 +4,26 @@ Command Line Interface File Cryptografer
 #### The _CLIFCry.java_ and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
   
 The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
-  
-  
+   
+   
 ### Features in this version:
-...planing...  
-  
+   + Prints the syntax and a short options help on the screen;
+   + Returns one encrypted text file from one given decrypted text file, and with password usage;
+   + Returns one decrypted text file from one given encrypted text file, and with password usage;
+   + Returns one encrypted text file from one given decrypted text file, and without password;
+   + Returns one decrypted text file from one given encrypted text file, and without password;
+   + Character set workable: ASCII.  
+   
+   
+### Release target:
+   + To verify command line arguments acceptables, otherwise print error on the screen;
+   + To verify whether given file path exists, otherwise print error on the screen;
+   
+   
 ### Features in future versions:
 ...planing...  
-  
-  
+   
+   
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.  
 PROJECT NAME: _**CLIFCry**_.  
