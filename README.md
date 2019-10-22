@@ -1,7 +1,7 @@
-﻿# CLIFCry
+﻿# CLIFCry _(symm.wwo.pw.1f.1pw)_
 Command Line Interface File Cryptografer  
   
-#### The *CLIFCry.java* and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
+#### The _CLIFCry.java_ and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
   
 The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
   
@@ -16,11 +16,11 @@ The CLIFCry project belongs to my personal portfolio. Its detailed project can b
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.  
 PROJECT NAME: _**CLIFCry**_.  
-PROJECT VERSION: 0.0.1.beta.  
+PROJECT VERSION: 1.0.0.beta.  
 SOURCE FILE NAME: _**CLIFCry.java**_.  
 BIN FILE NAME: _**CLIFCry.class**_.  
-DEPENDENCES: cryptocorepack.jar.  
-BRANCH: MASTER.  
+DEPENDENCES: _cryptocorepack.jar_.  
+BRANCH:  **SYMM.WWO.PW.1F.1PW**.  
 AUTHOR: RONALDO PI MA SI.  
 DATE: 2019-OCT.  
 LANGUAGE: JAVA 8. 
