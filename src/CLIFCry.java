@@ -1,8 +1,19 @@
-/**
+/******************************************************************************
+ * CLIFCry
+ * Command Line Interface File Cryptografer  
+ * 
+ * The CLIFCry.java and its resources are a project sample, which I have_
+ * developing to demonstrate some of my abilities.
+ *   
+ * The CLIFCry project belongs to my personal portfolio. Its detailed project_
+ * can be followed just here on GitHub:_
+ * https://github.com/users/ROPIMASI/projects/ . It is also found on my web-
+ * portfolio: https://ropimasi.wixsite.com/portfolio .  
+ * 
  * CONTENT: A PERSONAL UTILITY MINI PPROJECT.
- * THEME: TEXT FILE SYMMETRIC CRYPTOGRAFY.
+ * THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.
  * PROJECT NAME: CLIFCry.
- * PPROJECT VERSION: 0.0.2.beta.
+ * PPROJECT VERSION: 0.0.1.beta.
  * SOURCE FILE NAME: CLIFCry.java.
  * BIN FILE NAME: CLIFCry.class.
  * DEPENDENCES: cryptocorepack.jar.
@@ -25,9 +36,15 @@
  * It is a project under development and experimentation, which has no respon-
  * sibility for the information contained therein, nor about its results and_
  * effects when used.  
- */
+******************************************************************************/
 
-// ### IMPORTS
+
+
+// PACKAGE OWNER: none.
+
+
+
+// IMPORT OF DEPENDENCES.
 import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.BufferedReader;
@@ -35,6 +52,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import cryptocorepack.*;
 
+
+
+// MAIN CLASS.
 public class CLIFCry {
 	/**
 	 * @param args
