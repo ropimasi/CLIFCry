@@ -16,6 +16,7 @@ The CLIFCry project belongs to my personal portfolio. Its detailed project can b
    
    
 ### Release target:
+   + Features above; and...
    + To verify command line arguments acceptables, otherwise print error on the screen;
    + To verify whether given file path exists, otherwise print error on the screen.
    
