@@ -1,4 +1,4 @@
-# CryptoCorePack
+﻿# CryptoCorePack
 Cryptogrphy Core Package  
   
 #### The *CryptoCore.java* ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
@@ -7,6 +7,7 @@ Cryptogrphy Core Package
 
 Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/).  
 It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .  
+  
   
 ### Features in this version:
 ...  
