@@ -1,12 +1,21 @@
-# CLIFCry
-Command Line Interface File Crypto  
+# CryptoCorePack
+Cryptogrphy Core Package  
   
-#### The "CLICry.java" is a project sample, which I make as a demonstration of some of my abilities. Its detailed project can be followed just here on GitHub: https://github.com/users/ROPIMASI/projects/ .
+#### The _CryptoCore.java_ ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
+
+<!-- Cryptogrphy Core Package: A personal utility project sample, which I develop to demonstrate my abilities. -->
+
+Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/).  
 It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .  
   
-### Today it is a java project, for the **C**ommand **L**ine **I**nterface (CLI) in the terminal/console. It runs < it will be continued >...  
+### Features in this version:
+...  
   
-CONTENT: A PERSONAL UTILITY MINI-PPROJECT.  
+### Features in future versions:
+...  
+  
+  
+#### CONTENT: A PERSONAL UTILITY MINI-PPROJECT.  
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFY.  
 PROJECT NAME: _**CLIFileCrypto**_.  
 SOURCE FILE NAME: _**CLIFCry.java**_ and _**cryptocore**_ package.  
