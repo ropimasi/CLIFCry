@@ -1,16 +1,17 @@
 /**
- * CONTENT: A PERSONAL UTILITY MINI-PPROJECT.  
- * THEME: TEXT FILE SYMMETRIC CRYPTOGRAFY.  
- * PROJECT NAME: CLIFileCrypto.  
- * SOURCE FILE NAME: CLIFileCrypto.java and cryptocore package.  
- * BIN FILE NAME: CLIFileCrypto.class and cryptocore_package.jar.  
- * PPROJECT VERSION: 0.0.1.beta.  
- * BRANCH: MASTER.  
+ * CONTENT: A PERSONAL UTILITY MINI PPROJECT.
+ * THEME: TEXT FILE SYMMETRIC CRYPTOGRAFY.
+ * PROJECT NAME: CLIFCry.
+ * PPROJECT VERSION: 0.0.2.beta.
+ * SOURCE FILE NAME: CLIFCry.java.
+ * BIN FILE NAME: CLIFCry.class.
+ * DEPENDENCES: cryptocorepack.jar.
+ * BRANCH: MASTER.
  * AUTHOR: RONALDO PI MA SI.  
- * DATE: 2019-OCT.  
- * LANGUAGE: JAVA 8.  
- * PLATAFORM: Microsoft Windows7, Eclipse IDE EE v201903(4.11.0), JDK_SE-JRE-JVM 1.8.0.22.  
- *   
+ * DATE: 2019-OCT.
+ * LANGUAGE: JAVA 8.
+ * PLATAFORM: Microsoft Windows7, Eclipse IDE EE v201903(4.11.0), JDK_SE-JRE-JVM 1.8.0.22.
+ * 
  * NOTA IMPORTANTE / ISENÇÃO DE RESPONSABILIDADE:
  * Este é um projeto pessoal, particular, com finalidade exclusiva de estudos
  * em tecnologia da informação, e de uso e fruto único e exclusivamente de seu
@@ -26,17 +27,13 @@
  * effects when used.  
  */
 
-
 // ### IMPORTS
 import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
-
-
-
+import cryptocorepack.*;
 
 public class CLIFCry {
 	/**
@@ -44,12 +41,11 @@ public class CLIFCry {
 	 */
 
 	// Declaração de constantes e variáveis globais.
-	public static final String PROGRAM_NAME = "CLIFileCrypto";
-	public static final String PROGRAM_ALIAS = "CLIFCry";
-	public static final String PROGRAM_VERSION = "0.0.1.beta";
+	public static final String PROGRAM_NAME = "CLIFCry";
+	public static final String PROGRAM_VERSION = "0.0.2.beta";
 	public static final String DESTIN_FILE_EXTENSION = ".CLIFCry";
-	protected static final String[] OPTIONS_ARRAY = { "-t", "-e", "-d", "-h" }; // Vector of acceptables options
-																				// b.0.0.1.
+	protected static final String[] OPTIONS_ARRAY = { "-e", "-d", "-h" }; // Vector of acceptables options
+																			// on 0.0.2.beta.
 
 	// Auxiliar methods declarations.
 	protected static final boolean optionValidate(String aValue, String[] aVector) {

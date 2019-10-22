@@ -1,7 +1,7 @@
 # CryptoCorePack
 Cryptogrphy Core Package  
   
-#### The __CryptoCore.java__ ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
+#### The *CryptoCore.java* ans its resources are a project sample, which I develop as a demonstration of some of my abilities.  
 
 <!-- Cryptogrphy Core Package: A personal utility project sample, which I develop to demonstrate my abilities. -->
 
@@ -17,9 +17,9 @@ It is also found on my portfolio: https://ropimasi.wixsite.com/portfolio .
   
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFY.  
-PROJECT NAME: _**CLIFileCrypto**_.  
-SOURCE FILE NAME: _**CLIFCry.java**_ and _**cryptocore**_ package.  
-BIN FILE NAME: _**CLIFCry.class**_ and _**cryptocore_package.jar**_ .  
+PROJECT NAME: _**CryptoCorePack**_.  
+SOURCE FILE NAME: _**CryptoCore.java**_.  
+BIN FILE NAME: _**CryptoCore.class**_ or _**cryptocorepack.jar**_.  
 PROJECT VERSION: 0.0.1.beta.  
 BRANCH: MASTER.  
 AUTHOR: RONALDO PI MA SI.  
