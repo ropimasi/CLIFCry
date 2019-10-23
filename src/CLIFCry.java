@@ -51,7 +51,8 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import cryptocorepack.*;
+//import cryptocorepack.*; temporariamente usando CryptoCore.class no mesmo path/pacote de CLIFCry.class,
+// sem importar de um pacote externo.
 
 
 
@@ -61,6 +62,8 @@ public class CLIFCry {
 	 * @param args
 	 */
 
+
+	
 	// Declaração de constantes e variáveis globais.
 	public static final String PROGRAM_NAME = "CLIFCry";
 	public static final String PROGRAM_VERSION = "1.0.0.beta";
@@ -68,7 +71,8 @@ public class CLIFCry {
 	protected static final String[] OPTIONS_ARRAY = { "-e", "-d", "-h" }; // Vector of acceptables options
 																		  // on 1.0.0.beta.
 
-	// Auxiliar method to Print in DEBUG MODE.
+	
+	// Auxiliar method to validate whether aValue in aVector.
 	protected static final boolean optionValidate(String aValue, String[] aVector) {
 		for (int i = 0; i < aVector.length; i++) {
 			if (aVector[i].equalsIgnoreCase(aValue))
@@ -89,48 +93,51 @@ public class CLIFCry {
 		String myLine = "";
 		int lineIndex;
 		StringBuilder doneText = null;
-
 		// Número de argumentos enviados na linha de comando.
 		int numArgs = args.length;
+		
+		
+		
+		// debug print.
 		System.out.println("\n\nNúmero de argumentos: [" + numArgs + "]");
 
+		
+		
 		// Se existe pelo menos 1 argumento, valida-lo.
 		if (numArgs > 0) {
 
-			// Listar argumentos.
+			// debug print.
 			System.out.println("\nLista de argumentos:");
 			for (int i = 0; i < numArgs; i++)
 				System.out.println(i + " = [" + args[i] + "]");
 
-			// Validar primeiro argumento como opção aceitável.
+			// Validar primeiro argumento se opção aceitável.
 			if (optionValidate(args[0], OPTIONS_ARRAY)) { // Válido.
 
 				// Execultar o bloco da opção comandada.
 				switch (args[0]) {
 
 				case "-e": // Encrypt
-					System.out.println("\nOpção: -e [ENCRYPTING]");
-
 					// Lidar com arquivo origem.
+					// --- inicio debug print. ---
+					System.out.println("\nOpção: -e [ENCRYPTING]");
 					System.out.println("\nA ler arquivo origem...");
-					// Associar arquivo origem.
 					readableFile = new FileReader(args[1]);
 					readableBuffer = new BufferedReader(readableFile);
-
-					// Mostrar arquivo origem.
-					// Ler 1a linha.
 					myLine = readableBuffer.readLine();
 					lineIndex = 0;
 					while (myLine != null) {
-						// Ler todas linhas até o fim do arquivo.
 						System.out.printf("%d %s\n", lineIndex, myLine);
 						myLine = readableBuffer.readLine();
 						lineIndex++;
 					}
 					readableFile.close();
 					readableBuffer.close();
+					// --- fim debug print. ---
 
+					
 					// Encriptar propriamente dito.
+					// debug print.
 					System.out.println("\nEncriptando...");
 					// Preparar StringBuilder para receber sequências de linhas cifradas.
 					doneText = new StringBuilder();
@@ -143,14 +150,16 @@ public class CLIFCry {
 					while (myLine != null) {
 						// Ler todas linhas até o fim do arquivo,
 						// encriptando-as e adicionando-as no StringBuilder.
-						doneText.append(CryptoCore.encrypt(myLine, args[2]) + "\n");
+						doneText.append(CryptoCore.symmEncrypt(myLine, args[2]) + "\n");
 						// Ler próxima linha.
 						myLine = readableBuffer.readLine();
 						lineIndex++;
 					}
+					// debug print.
 					System.out.println("\nDemonstração:\n" + doneText.toString());
 
 					// Gravar texto cifrado num novo arquivo.
+					// debug print.
 					System.out.println("\nGravando...");
 					// Associar arquivo destino.
 					writableFile = new FileWriter(args[1] + DESTIN_FILE_EXTENSION);
@@ -161,33 +170,28 @@ public class CLIFCry {
 					readableBuffer.close();
 					writableFile.close();
 					writablePrinter.close();
-
 					break;
 
 				case "-d": // Decrypt
-					System.out.println("\nOpção: -d [DECRYPTING]");
-
 					// Lidar com arquivo origem.
+					// --- inicio debug print. ---
+					System.out.println("\nOpção: -d [DECRYPTING]");
 					System.out.println("\nA ler arquivo origem...");
-					// Associar arquivo origem.
 					readableFile = new FileReader(args[1]);
 					readableBuffer = new BufferedReader(readableFile);
-
-					// Mostrar arquivo origem.
-					// Ler 1a linha.
 					myLine = readableBuffer.readLine();
 					lineIndex = 0;
 					while (myLine != null) {
-						// Ler todas linhas até o fim do arquivo.
 						System.out.printf("%d %s\n", lineIndex, myLine);
-						// Ler próxima linha.
 						myLine = readableBuffer.readLine();
 						lineIndex++;
 					}
 					readableFile.close();
 					readableBuffer.close();
+					// --- fim debug print. ---
 
 					// Decriptar propriamente dito.
+					// dubug print.
 					System.out.println("\nDecriptando...");
 					// Preparar StringBuilder para receber sequências de linhas cifradas.
 					doneText = new StringBuilder();
@@ -200,14 +204,16 @@ public class CLIFCry {
 					while (myLine != null) {
 						// Ler todas linhas até o fim do arquivo,
 						// decriptando-as e adicionando-as no StringBuilder.
-						doneText.append(CryptoCore.decrypt(myLine, args[2]) + "\n");
+						doneText.append(CryptoCore.symmDecrypt(myLine, args[2]) + "\n");
 						// Ler próxima linha.
 						myLine = readableBuffer.readLine();
 						lineIndex++;
 					}
+					// dubug print.
 					System.out.println("\nDemonstração:\n" + doneText.toString());
 
 					// Gravar texto decifrado num novo arquivo.
+					// dubug print.
 					System.out.println("\nGravando...");
 					// Associar arquivo destino.
 					writableFile = new FileWriter(args[1] + ".CFCdec");
@@ -218,7 +224,6 @@ public class CLIFCry {
 					readableBuffer.close();
 					writableFile.close();
 					writablePrinter.close();
-
 					break;
 
 				case "-h": // Imprimir em tela sintaxe e ajuda rápida.
@@ -226,17 +231,26 @@ public class CLIFCry {
 					System.out.println("Syntax: CLIFileCrypto <-option> <file_path_name [password]>");
 					System.out.println("-e \t to encrypt;");
 					System.out.println("-d \t to decrypt;");
-					System.out.println("-h \t to help;");
+					System.out.println("-h \t to help.");
 					break;
 
 				default: // Opção inválida.
-					System.out.println("\nOpção: inválida. Use opção -h para ajuda.");
+					System.out.println("\nErro: Opção inexperada.\nUltilize opção <-h> para ajuda.\nSe este erro persistir contate _ _ _ _ _ _ _ _.");
 				}
+			} else {
+				System.out.println("\nErro: Argumento inválido.\nUltilize opção <-h> para ajuda.");	
 			}
 		} else {
-			System.out.println("\nNenhum argumento.");
+			System.out.println("\nErro: Nenhum argumento encontrado.\nUltilize opção <-h> para ajuda.");
 		}
-
 		System.out.println("\nConcluido.\n");
+	}
+	
+	
+	
+	// Uma class aninhada só contendo as frases padronizadas.
+	public class CLIFCMultIdiomNotes {
+		// para implementar uma coletânea de notas padronizadas (string constantes).
+		
 	}
 }
