@@ -6,7 +6,7 @@ Command Line Interface File Cryptografer
 The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
    
    
-### Features in this version:
+### Features in this version (1.0.0):
    + Prints the syntax and a short options help on the screen;
    + Returns one encrypted text file from one given decrypted text file, and with password usage;
    + Returns one decrypted text file from one given encrypted text file, and with password usage;
@@ -15,14 +15,14 @@ The CLIFCry project belongs to my personal portfolio. Its detailed project can b
    + Character set workable: ASCII.  
    
    
-### Release target:
+### Release target (1.0.0):
    + Features above; and...
    + To verify command line arguments acceptables, otherwise print error on the screen;
    + To verify whether given file path exists, otherwise print error on the screen.
    
    
-### Features in future versions:
-...planing...  
+### Features in future versions (1.1.0):
+   + ...planing...  
    
    
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
