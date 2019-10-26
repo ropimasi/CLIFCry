@@ -1,17 +1,20 @@
 ﻿# CLIFCry
 Command Line Interface File Cryptografer  
+  <br>  
   
-#### The *CLIFCry.java* and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
-  
+#### The *CLIFCry.java* and its resources are a project sample, which I have developing to demonstrate some of my abilities.
 The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
+  <br>  
   
+> Namely: This project is designed to be used together with the _**CryptoCorePack**_ package.  
+  <br>  
   
 ### Features in this version:
 ...planing...  
   
 ### Features in future versions:
 ...planing...  
-  
+  <br>  
   
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.  
