@@ -1,29 +1,37 @@
 ﻿# CLIFCry _(symm.wwo.pw.1f.1pw)_
 Command Line Interface File Cryptografer  
   
-#### The _CLIFCry.java_ and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
+  <br>  
   
+#### The _CLIFCry.java_ and its resources are a project sample, which I have developing to demonstrate some of my abilities.  
 The CLIFCry project belongs to my personal portfolio. Its detailed project can be followed just here on GitHub: [github.com/users/ROPIMASI/projects/](https://github.com/users/ROPIMASI/projects/). It is also found on my web-portfolio: [ropimasi.wixsite.com/portfolio](https://ropimasi.wixsite.com/portfolio).  
+  
+  <br>  
    
-   
+> Namely: This project is designed to work importing the `cryptocorepack.CryptoCore` (package.Class);  
+  
+  <br>  
+  
 ### Features in this version (1.0.0):
    + Prints the syntax and a short options help on the screen;
+      - `-h` short options help;
+      - `-e` encrypt;
+      - `-d` decrypt;
    + Returns one encrypted text file from one given decrypted text file, and with password usage;
    + Returns one decrypted text file from one given encrypted text file, and with password usage;
    + Returns one encrypted text file from one given decrypted text file, and without password;
    + Returns one decrypted text file from one given encrypted text file, and without password;
    + Character set workable: ASCII.  
    
-   
 ### Release target (1.0.0):
    + Features above; and...
    + To verify command line arguments acceptables, otherwise print error on the screen;
-   + To verify whether given file path exists, otherwise print error on the screen.
-   
-   
+   + To verify whether given file path exists, otherwise print error on the screen.  
+  
 ### Features in future versions (1.1.0):
-   + ...planing...  
+   + New option `-x' **excludes** the origin file.
    
+   <br>  
    
 #### CONTENT: A PERSONAL UTILITY MINI PPROJECT.
 THEME: TEXT FILE SYMETRIC CRYPTOGRAFER.  
