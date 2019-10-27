@@ -29,7 +29,7 @@ The CLIFCry project belongs to my personal portfolio. Its detailed project can b
    + To verify whether given file path exists, otherwise print error on the screen.  
   
 ### Features in future versions (1.1.0):
-   + New option `-x' **excludes** the origin file.
+   + New option `-x` **excludes** the origin file.
    
    <br>  
    
